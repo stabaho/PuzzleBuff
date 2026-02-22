@@ -3,7 +3,7 @@
 ## X-Min-Interface: 11508
 ## X-Mid-Interface: 50503
 
-## Title: DecursivePlus |cffff00ff -Ace3-|r
+## Title: PuzzleBuff |cffff00ff -Ace3-|r
 ## Notes: Afflictions display and cleaning + Priest buff casting (Fort, Shadow Protect, Inner Fire, Touch of Weakness).
 ## Notes-frFR: Affichage et guérison des affections avec un système évolué de filtrage et de priorité.
 ## Notes-deDE: Anzeige und Reinigung von Gebrechen für Solo, Gruppe und Schlachtzug mit erweitertem Filter- und Prioritäten-System.
@@ -16,9 +16,9 @@
 ## Notes-ptBR: Exibição de aflições e limpeza para uso solo, em grupo e raides, com filtragem avançada e sistema de proriodades.
 ## Notes-itIT: Afflictions display and cleaning for solo, group and raid with advanced filtering and priority system.
 
-## IconTexture: Interface/AddOns/DecursivePlus/iconON.tga
+## IconTexture: Interface/AddOns/PuzzleBuff/iconON.tga
 
-## SavedVariables: DecursiveDB, DecursivePlusBuffDB
+## SavedVariables: DecursiveDB, PuzzleBuffDB
 
 ## Version: 2.7.34-plus
 ## Author: John Wellesz (fork by stabaho)
@@ -26,7 +26,7 @@
 ## OptionalDeps: Ace3, LibQTip-1.0, LibDataBroker-1.1, LibDBIcon-1.0, !BugGrabber, LibDualSpec-1.0
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Class: Mage, Priest, Paladin, Druid, Hunter, Warlock, Shaman, Monk, Deathknight, Evoker
-## X-LoadOn-Slash: /decursive, /dcr, /dcrplus
+## X-LoadOn-Slash: /decursive, /dcr, /puzzlebuff
 ## X-Embeds: Ace3, LibQTip-1.0, LibDataBroker-1.1, LibDBIcon-1.0, !BugGrabber, LibDualSpec-1.0
 ## X-ReleaseDate: "2026-01-19T00:28:40Z"
 ## X-Category: Combat
