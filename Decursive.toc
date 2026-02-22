@@ -3,8 +3,8 @@
 ## X-Min-Interface: 11508
 ## X-Mid-Interface: 50503
 
-## Title: Decursive |cffff00ff -Ace3-|r
-## Notes: Afflictions display and cleaning for solo, group and raid with advanced filtering and priority system.
+## Title: DecursivePlus |cffff00ff -Ace3-|r
+## Notes: Afflictions display and cleaning + Priest buff casting (Fort, Shadow Protect, Inner Fire, Touch of Weakness).
 ## Notes-frFR: Affichage et guérison des affections avec un système évolué de filtrage et de priorité.
 ## Notes-deDE: Anzeige und Reinigung von Gebrechen für Solo, Gruppe und Schlachtzug mit erweitertem Filter- und Prioritäten-System.
 ## Notes-esES: Visualización y limpieza de aflicciones en solitario, en grupo y en bandas con filtrado avanzado y sistema de prioridad.
@@ -16,63 +16,42 @@
 ## Notes-ptBR: Exibição de aflições e limpeza para uso solo, em grupo e raides, com filtragem avançada e sistema de proriodades.
 ## Notes-itIT: Afflictions display and cleaning for solo, group and raid with advanced filtering and priority system.
 
-## IconTexture: Interface/AddOns/Decursive/iconON.tga
+## IconTexture: Interface/AddOns/DecursivePlus/iconON.tga
 
-## SavedVariables: DecursiveDB
+## SavedVariables: DecursiveDB, DecursivePlusBuffDB
 
-## Version: 2.7.34
-## Author: John Wellesz
-
+## Version: 2.7.34-plus
+## Author: John Wellesz (fork by stabaho)
 ## X-License: GNU GPL V3
-
 ## OptionalDeps: Ace3, LibQTip-1.0, LibDataBroker-1.1, LibDBIcon-1.0, !BugGrabber, LibDualSpec-1.0
-
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Class: Mage, Priest, Paladin, Druid, Hunter, Warlock, Shaman, Monk, Deathknight, Evoker
-## X-LoadOn-Slash: /decursive, /dcr
-
-
+## X-LoadOn-Slash: /decursive, /dcr, /dcrplus
 ## X-Embeds: Ace3, LibQTip-1.0, LibDataBroker-1.1, LibDBIcon-1.0, !BugGrabber, LibDualSpec-1.0
-
 ## X-ReleaseDate: "2026-01-19T00:28:40Z"
 ## X-Category: Combat
 ## X-Website: http://www.2072productions.com/to/decursive.php
 ## X-Credits: Sylvin (Full french translation), Peter Sun, Ananhaid (ZhTW and zhCN translation), Fenlis, Chkid (koKR translation), Hemathio, Swix, Athariel, StingerSoft (Russian Translation), Freydis88, Floyddotnet, Vilogity, Dessa, Farook (German translation)
-
 ## X-Curse-Project-ID: 2154
 ## X-AceForum: 4195
-
 ## X-eMail: Decursive@2072productions.com
-
-
 Dcr_preload.lua
-
 embeds.xml
-
 Dcr_DIAG.lua
 Dcr_DIAG.xml
-
 Localization\load.xml
-
 DCR_init.lua
 Dcr_LDB.lua
 Dcr_utils.lua
-
-
 Dcr_opt.lua
 Dcr_Events.lua
-
 Dcr_Raid.lua
-
 Decursive.lua
 Decursive.xml
-
 Dcr_lists.lua
 Dcr_lists.xml
-
 Dcr_DebuffsFrame.lua
 Dcr_DebuffsFrame.xml
-
 Dcr_LiveList.lua
 Dcr_LiveList.xml
-
+Dcr_Buffs.lua
